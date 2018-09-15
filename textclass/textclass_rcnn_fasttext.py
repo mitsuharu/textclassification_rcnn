@@ -10,7 +10,6 @@ import ml_util as mu
 import consts
 
 
-# 論文に正直に書いたコード
 def model_rcnn(embedding=None):
     print("model_rcnn_regular")
 
@@ -46,7 +45,6 @@ def model_rcnn(embedding=None):
     return model
 
 
-# 論文に正直に書いたコード
 def train_model(source_file: str, save_path: str =None):
     print("train_model")
 
