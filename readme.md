@@ -31,6 +31,7 @@ RCNN (Reccurent CNN) でテキスト分類を行う
         "rating": "5",
         "title": "ファン必見"
     },
+    ...
 ]
 ```
 
