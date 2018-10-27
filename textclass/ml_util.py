@@ -215,7 +215,7 @@ class EmbeddingData:
         tokens = temp_text.split()
 
         # 文字を token_index に変換する
-        temp = [self.word_index.index(token) if token in self.word_index else self.max_token_index for token in tokens]
+        temp = [self.word_index.index(token) if token in self.word_index else (len(self.word_index) - 1) for token in tokens]
         return temp
 
     # 訓練またはテストデータから、RCNN（双方向LSTM）用の前後にシフトしたデータを生成する
